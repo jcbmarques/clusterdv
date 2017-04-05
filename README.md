@@ -34,9 +34,9 @@ agregation_788points_2d_7c.mat 	- Gionis A, Mannila H, Tsaparas P (2007)
 
 
 
-==============================================================================
+------------------------------------------------------------------------------
 Getting Started
-==============================================================================
+------------------------------------------------------------------------------
 
 To run the clusterdv package unzip and add the folder to the Matlab path. 
 The clusterDv.m script opens a user interface and the user should click on 
@@ -47,12 +47,12 @@ determine the number of clusters and assign each data point to the respective
 group. The groups are saved in the variable 'clusterAssignment' and the index 
 of the cluster centers on the variable 'indChoosenClusterCenters'.
 
-==============================================================================
+------------------------------------------------------------------------------
 Relevant functions
-==============================================================================
+------------------------------------------------------------------------------
 
 findClusterCentersDensityValley_6.m (determines cluster centers by clusterdv)
-==============================================================================
+------------------------------------------------------------------------------
 important inputs: 
 data
 kdedens 		- if density kde object was calculated before hand. 
@@ -79,13 +79,13 @@ scalingFactor 		- factor to scale the density estimation. Put 1
 makeplot 		- 1 produces plot, 0 no plot.
 
 makeDendrogramByCenterExclusion_4.m (produces dendrogram according to SI values)
-==============================================================================
+------------------------------------------------------------------------------
 important inputs: 
 data
 SImeasure 		- produced by findClusterCentersDensityValley_6.m. 
 
 decideClusterCentersAll_3.m (decision rule to determine number of clusters)
-==============================================================================
+------------------------------------------------------------------------------
 important inputs: 
 data
 SImeasureRandThreshold 	- SI threshold or outlier density threshold
@@ -98,7 +98,7 @@ decisionMethod          - method to decide number of clusters. It can be:
 			  SImeasureRandThreshold ('allExcludeOutliers').	
 
 assignDataPointsAllCases_1.m (assigns individual data points to respective clusters)
-==============================================================================
+------------------------------------------------------------------------------
 important inputs: 
 data
 pointAssignmentMethod 	- Most usual method is 'distance'.
