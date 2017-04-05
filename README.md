@@ -1,7 +1,7 @@
 # clusterdv
-==============================================================================
+----------------------------------------------------------------------------
 Density valley clustering package
-==============================================================================
+----------------------------------------------------------------------------
 
 This package includes the Matlab implementation of density valley clustering 
 (clusterdv). Clusterdv is a density based clustering method and to estimate 
