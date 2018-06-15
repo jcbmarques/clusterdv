@@ -126,10 +126,6 @@ each data point to the respective group. The groups are saved in the variable
 'clusterAssignment' and the index of the cluster centers on the variable 
 'indChoosenClusterCenters'.
 
-==============================================================================
-ClusterDv master function
-==============================================================================
-
 clusterDvFunction.m (runs ClusterDv)
 ==============================================================================
 important inputs: 
