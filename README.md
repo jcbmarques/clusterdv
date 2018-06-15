@@ -1,4 +1,4 @@
-==============================================================================
+
 Density valley clustering package
 ==============================================================================
 
@@ -35,15 +35,15 @@ beep20_550p_2d_2c		- from this study
 
 bone_marrow_38p_3d_3c 		- Monti, S. et al. (2003) Consensus clustering: a resampling-based
 				  method for class discovery and visualization of gene 
-			          expression microarray data. Machine learning 52, 91–113
+			          expression microarray data. Machine learning 52, 91â€“113
 
 cassini_1250p_2d_3c 		- Wiwie, C. et al. (2015) Comparing the performance of biomedical
-				  clustering methods. Nat Meth 12, 1033–1038
+				  clustering methods. Nat Meth 12, 1033â€“1038
 
 easy2_600p_2d_2c		- from this study
 
 cuboid_250p_3d_4c               - Wiwie, C. et al. (2015) Comparing the performance of biomedical
-				  clustering methods. Nat Meth 12, 1033–1038
+				  clustering methods. Nat Meth 12, 1033â€“1038
 
 easy5_1000p_2d_5c		- from this study
 
@@ -55,36 +55,36 @@ exclamationMark3_186p_2d_3c     - from this study
 
 flame_240p_2d_2c		- Fu  L, Medico  E (2007) FLAME, a novel fuzzy 
 				  clustering method for the analysis of DNA 
-				  microarray data. BMC bioinformatics 8:1–25.
+				  microarray data. BMC bioinformatics 8:1â€“25.
 
 R15_600p_2d_15c 		- Veenman, C.J. and Reinders, M. (2002) A maximum 
 				  variance cluster algorithm. IEEE Transactions 
-				  on Pattern Analysis and Machine Intelligence 24, 1273–128
+				  on Pattern Analysis and Machine Intelligence 24, 1273â€“128
 
 Rodriguez1_1000p_2d_5c 		- Rodriguez, A. and Laio, A. (2014) Clustering by fast search
-				  and find of density peaks. Science 344, 1492–1496
+				  and find of density peaks. Science 344, 1492â€“1496
 
 Rodriguez2_4000p_2d_5c		- Rodriguez, A. and Laio, A. (2014) Clustering by fast search
-				  and find of density peaks. Science 344, 1492–1496
+				  and find of density peaks. Science 344, 1492â€“1496
 
-S1_5000_2d_15c			- Fränti, P. and Virmajoki, O. (2006) Iterative shrinking method
-				  for clustering problems. Pattern Recognition 39, 761–775
+S1_5000_2d_15c			- FrÃ¤nti, P. and Virmajoki, O. (2006) Iterative shrinking method
+				  for clustering problems. Pattern Recognition 39, 761â€“775
 
-S2_5000_2d_15c			- Fränti, P. and Virmajoki, O. (2006) Iterative shrinking method
-				  for clustering problems. Pattern Recognition 39, 761–775
+S2_5000_2d_15c			- FrÃ¤nti, P. and Virmajoki, O. (2006) Iterative shrinking method
+				  for clustering problems. Pattern Recognition 39, 761â€“775
 
-S3_5000p_15c			- Fränti, P. and Virmajoki, O. (2006) Iterative shrinking method
-				  for clustering problems. Pattern Recognition 39, 761–775
+S3_5000p_15c			- FrÃ¤nti, P. and Virmajoki, O. (2006) Iterative shrinking method
+				  for clustering problems. Pattern Recognition 39, 761â€“775
 
-S4_5000p_15c			- Fränti, P. and Virmajoki, O. (2006) Iterative shrinking method
-				  for clustering problems. Pattern Recognition 39, 761–775
+S4_5000p_15c			- FrÃ¤nti, P. and Virmajoki, O. (2006) Iterative shrinking method
+				  for clustering problems. Pattern Recognition 39, 761â€“775
 
 seeds_210p_7d_3c		- Charytanowicz, M. et al. (2010) Complete gradient clustering
 				  algorithm for features analysis of x-ray images. Information
-				  Technologies in Biomedicine 69, 15–24
+				  Technologies in Biomedicine 69, 15â€“24
 
 spiral_312p_2d_3c		- Chang H, Yeung DY (2008) Robust path-based 
-				  spectral clustering. Pattern Recogn 41:191–203.
+				  spectral clustering. Pattern Recogn 41:191â€“203.
 
 easy2_600p_2d_2c		- from this study
 
@@ -102,10 +102,10 @@ twoLevel2_700p_2d_9c		- from this study
 
 zacharyTsne_30p_4d_2c		- Zachary, W.W. (1977) An information flow model for conflict 
 				  and fission in small groups. Journal of anthropological 
-				  research 33, 452–473
+				  research 33, 452â€“473
 
 
-==============================================================================
+
 Getting Started
 ==============================================================================
 To run the clusterdv package there are two options:
@@ -174,7 +174,7 @@ SImeasure		 - separability index for each point.
 SImeasureRandThreshold   - threshold defined by method that selects cluster centers.
 tree			 - SI dendrogram.
 
-==============================================================================
+
 Functions that are called by clusterDvFunction.m
 ==============================================================================
 
