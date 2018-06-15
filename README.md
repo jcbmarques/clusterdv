@@ -158,7 +158,7 @@ kdedens 		 - if density kde object was calculated before hand.
 			   inside the function.
 makeplot 		 - 1 produces plots with clustering results, 0 no plot.
 
-==============================================================================
+
 outputs: 
 
 clusterAssignment	 - vector with cluster assignments. 
